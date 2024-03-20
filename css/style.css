@@ -14,10 +14,12 @@ body {
 
 .layout_padding2-top {
   padding-top: 45px;
+  text-align: justify;
 }
 
 .layout_padding2-bottom {
   padding-bottom: 45px;
+  text-align: justify;
 }
 
 .layout_padding-top {
@@ -203,7 +205,7 @@ a:focus {
 /* slider section */
 
 .slider_section {
-  background-color: #E9E9E9; /* Cambia este color al que prefieras */
+  background-color: #d3d3d3; /* Cambia este color al que prefieras */
 }
 
 .slider_section .row {
