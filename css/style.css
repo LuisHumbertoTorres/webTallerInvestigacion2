@@ -4,6 +4,18 @@ body {
   background-color: #ffffff;
 }
 
+.img-box1 img {
+  width: 60%; /* O el valor que desees */
+  height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
+hr {
+  border: none; 
+  height: 5px; 
+  background-color: #464646; 
+  margin: 2% 8%; 
+}
+
 .layout_padding {
   padding: 75px 0;
 }
@@ -291,72 +303,72 @@ a:focus {
   width: 350px;
 }
 
-.service_section {
+.vulnerables_section {
   text-align: center;
   position: relative;
 }
 
-.service_section .custom_heading-container {
+.vulnerables_section .custom_heading-container {
   margin-bottom: 15px;
 }
 
-.service_section .service_container {
+.vulnerables_section .vulnerables_container {
   padding: 45px 0 75px 0;
 }
 
-.service_section .box.b-2 .detail-box {
+.vulnerables_section .box.b-2 .detail-box {
   width: 60%;
   text-align: right;
   overflow: hidden;
 }
 
-.service_section .box.b-2 .detail-box p {
+.vulnerables_section .box.b-2 .detail-box p {
   height: 52px;
   overflow: hidden;
 }
 
-.service_section .box.b-2 .detail-box a {
+.vulnerables_section .box.b-2 .detail-box a {
   min-width: 100px;
 }
 
-.service_section .box.b-3 .detail-box {
+.vulnerables_section .box.b-3 .detail-box {
   width: 70%;
   margin-left: auto;
   overflow: hidden;
   text-align: left;
 }
 
-.service_section .box.b-3 .detail-box p {
+.vulnerables_section .box.b-3 .detail-box p {
   height: 52px;
   overflow: hidden;
 }
 
-.service_section .box.b-3 .detail-box a {
+.vulnerables_section .box.b-3 .detail-box a {
   min-width: 100px;
 }
 
-.service_section .img-box img {
+.vulnerables_section .img-box img {
   height: 200px;
 }
 
-.service_section .detail-box {
+.vulnerables_section .detail-box {
   height: 118px;
   margin-top: 10px;
 }
 
-.service_section .detail-box h6 {
+.vulnerables_section .detail-box h6 {
   font-weight: bold;
 }
 
-.service_section .detail-box .btn-box a {
+.vulnerables_section .detail-box .btn-box a {
   color: #272727;
 }
 
-.service_section .detail-box .btn-box hr {
+.vulnerables_section .detail-box .btn-box hr {
   background-color: #272727;
 }
 
-.service_section::before {
+.vulnerables_section::before {
   content: "";
   width: 100px;
   height: 175px;
@@ -369,19 +381,19 @@ a:focus {
   background-image: url(../images/slider-im.jpg);
 }
 
-.work_section {
+.consejos_section {
   background-color: #272727;
 }
 
-.work_section .custom_heading-container h3 {
+.consejos_section .custom_heading-container h3 {
   color: #ffffff;
 }
 
-.work_section .custom_heading-container h3::before {
+.consejos_section .custom_heading-container h3::before {
   background-color: #ffffff;
 }
 
-.work_section .work_container {
+.consejos_section .consejos_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -394,7 +406,7 @@ a:focus {
   padding: 45px 0;
 }
 
-.work_section .work_container .box {
+.consejos_section .consejos_container .box {
   width: 275px;
   height: 345px;
   display: -webkit-box;
@@ -407,7 +419,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 35px 0 20px 0;
+  padding: 25px 10px 20px 10px;
   background-color: #ffffff;
   border-radius: 5px;
   margin: 45px 10px;
@@ -415,24 +427,24 @@ a:focus {
           box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
 }
 
-.work_section .work_container .box .img-box {
+.consejos_section .consejos_container .box .img-box {
   width: 150px;
 }
 
-.work_section .work_container .box .img-box img {
+.consejos_section .consejos_container .box .img-box img {
   width: 100%;
 }
 
-.work_section .work_container .box .name {
+.consejos_section .consejos_container .box .name {
   margin-top: 10px;
 }
 
-.work_section .work_container .box.b-1, .work_section .work_container .box.b-3 {
+.consejos_section .consejos_container .box.b-1, .consejos_section .consejos_container .box.b-3 {
   -webkit-animation: odd-box-animate 2s infinite;
           animation: odd-box-animate 2s infinite;
 }
 
-.work_section .work_container .box.b-2, .work_section .work_container .box.b-4 {
+.consejos_section .consejos_container .box.b-2, .consejos_section .consejos_container .box.b-4 {
   -webkit-animation: even-box-animate 2s infinite;
           animation: even-box-animate 2s infinite;
 }
@@ -497,11 +509,11 @@ a:focus {
   }
 }
 
-.work_section .btn-box a {
+.consejos_section .btn-box a {
   color: #ffffff;
 }
 
-.work_section .btn-box hr {
+.consejos_section .btn-box hr {
   background-color: #ffffff;
 }
 
